@@ -7,3 +7,8 @@ setwd("~/GoogleDrive/03_g_LAC/LAC-maps")
 #render your sweet site. 
 rmarkdown::render_site()
 
+# # list which files will be removed
+# rmarkdown::clean_site(preview = TRUE)
+# 
+# # actually remove the files
+# rmarkdown::clean_site()
