@@ -1,0 +1,9 @@
+name: "LAC-maps"
+output_dir: "."
+navbar:
+  title: "LAC maps Website"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About Me"
+      href: about.html
