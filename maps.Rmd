@@ -1,23 +1,32 @@
 ---
 title: "Exploratory Maps of LAC countries"
+output:
+  html_document:
+    toc: true
+    toc_float: true
 ---
-
-Sometimes I like to do projects and then post them on the internet for the whole world to benefit!
-here's some examples. 
-
-## [Brazil level 2 boundaries](file://localhost/Users/luisamimmi/GoogleDrive/03_g_LAC/05_Maps-Output/Brazil_lev2Munic_leaf.html)
-
-
-
-## [Statistical Plots](http://bl.ocks.org/nstrayer/37a503dd1db369a8f7e3ce21757e19ee)
-
-- Interactive plots of things
-- I can code!
-
-To enable caching for an entire document, add cache = TRUE to the global chunk option defaults:
 
 ```{r setup, include=FALSE}
 # To enable caching for an entire document, add cache = TRUE to the global chunk option defaults:
-
 knitr::opts_chunk$set(cache = TRUE)
+```
+
+```{r packages, cache = FALSE, message = FALSE}
+# library(tidyverse)
+```
+
+
+
+## Brazil level 2 boundaries
+![Brazil 3 levels of admin boundaries (Source: GADM)](images/Bra_3lev_AdminBound.png)
+
+ ![Brazil intereactive map of level 2(Source: GADM)](images/Brazil_lev2Munic_leaf.html)
+
+
+
+
+
+# Session Info {.toc-ignore}
+
+```{r child='_sessioninfo.Rmd'}
 ```
