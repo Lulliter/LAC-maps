@@ -1,11 +1,18 @@
 name: "LAC-maps"
-output_dir: "."
 navbar:
   title: "LAC maps Website"
   left:
     - text: "Home"
-      href: index.html
-    - text: "Maps"     ##### the new
+      href: index.html # MUST HAVE !!!!
+    - text: "Maps of the LAC region"     ##### the new
       href: maps.html  ##### stuff
-    - text: "About"
-      href: about.html
+    - text: "Exploratory Analysis"
+      href: analysis.html
+output:
+  html_document:
+    theme: readable
+    highlight: pygments
+    include:
+      in_header: _google_analytics.html
+      after_body: _footer.html
+output_dir: "."
