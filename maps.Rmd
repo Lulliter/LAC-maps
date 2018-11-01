@@ -20,10 +20,7 @@ knitr::opts_chunk$set(cache = TRUE)
 ## Brazil level 2 boundaries
 ![Brazil 3 levels of admin boundaries (Source: GADM)](images/Bra_3lev_AdminBound.png)
 
- ![Brazil intereactive map of level 2(Source: GADM)](images/Brazil_lev2Munic_leaf.html)
-
-
-
+![Brazil intereactive map of level 2(Source: GADM)](images/Brazil_lev2Munic_leaf.html)
 
 
 # Session Info {.toc-ignore}
