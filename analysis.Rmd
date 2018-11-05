@@ -14,7 +14,7 @@ output:
 knitr::opts_chunk$set(cache = TRUE, # To enable caching for an entire document
 							 tidy = TRUE, 
 							 echo = FALSE , 
-							 results='asis',  
+							 results='hide',  
 							 message = FALSE, 
 							 warning = FALSE , 
 							 fig.show='asis', fig.align='center', fig.width=6, fig.height=6)
@@ -27,7 +27,7 @@ here::here()
 
 1. Starting from a reduced balanced panel dataset of 22 cities with GWI data over 7 years, the **Combined bill /m3** shows much more variability and growth in Metropolitan areas. 
 
-```{r domain , eval=TRUE, echo=FALSE, results='hide'}
+```{r domain }
 # Follow 
 # https://stackoverflow.com/questions/15625990/how-to-set-size-for-local-image-using-knitr-for-markdown
 # From '04_Explore/05_Explore_Pop-Price-ByCity-OverTime.Rmd'
@@ -53,13 +53,13 @@ kable(t,
 
 
 <div style="width:800px; height:600px">
-![Combined bill (Water & WasteWater) /m3 conditional on the type of city](.././05_Output/01_PanelCoplotStatType.png)
+![Combined bill (Water & WasteWater) /m3 conditional on the type of city](images/01_PanelCoplotStatType.png)
 </div>
 
 <!-- ![Combined bill (Water & WasteWater) /m3 conditional on the type of city](.././05_Output/01_PanelCoplotStatType.png){width=80%} -->
 
 2. It is also noticeable how much more variability there is in the Wastewater than in Water bill (as well as a steeper avg increase over time)
 <div style="width:800px; height:8600px">
-![Water & WasteWater bills /m3 over time](.././05_Output/02_BoxplotTime.png)
+![Water & WasteWater bills /m3 over time](images/02_BoxplotTime.png)
 </div>
 
