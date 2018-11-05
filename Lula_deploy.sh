@@ -1,10 +1,12 @@
-# Go To ./ folder
+# Go To (git) ./ folder
 cd ~/GoogleDrive/*_LAC/LAC-maps
+ls
+git remote show origin 
 
-# Add changes to git.
+# Add ALL changes to git Index.
 git add -A
 
-# Commit changes.
+# Commit Those changes.
 msg="rebuilding site `date`"
 if [ $# -eq 1 ]
   then msg="$1"
@@ -15,5 +17,8 @@ git commit -m "$msg"
 # Push source and build repos.
 git push origin master
 
-# Come Back up to the Project Root
-cd ..
+# # Come Back up to the Project Root
+# cd ..
+# 
+# # Delete the local repository in the shell:
+# rm -rf myrepo/

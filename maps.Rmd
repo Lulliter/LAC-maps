@@ -7,11 +7,16 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-# To enable caching for an entire document, add cache = TRUE to the global chunk option defaults:
-knitr::opts_chunk$set(cache = TRUE)
+knitr::opts_chunk$set(cache = TRUE, # To enable caching for an entire document
+							 tidy = TRUE, 
+							 echo = FALSE , 
+							 results='hide',  
+							 message = FALSE, 
+							 warning = FALSE , 
+							 fig.show='asis', fig.align='center', fig.width=6, fig.height=6)
 ```
 
-```{r packages, cache = FALSE, message = FALSE}
+```{r packages, cache = FALSE, message = FALSE, include=FALSE}
 # library(tidyverse)
 ```
 
@@ -23,7 +28,24 @@ knitr::opts_chunk$set(cache = TRUE)
 ![Brazil intereactive map of level 2(Source: GADM)](images/Brazil_lev2Munic_leaf.html)
 
 
-# Session Info {.toc-ignore}
+
+
+
+
+
+
+# NEXT  {.toc-ignore}
+.... what if I put data in data and reconstruct things here ? 
+
+
+
+<details> 
+  <summary>Click for the session info</summary>
+  <p>
 
 ```{r child='_sessioninfo.Rmd'}
+
 ```
+  </p>
+</details>
+
