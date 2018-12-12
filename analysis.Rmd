@@ -1,6 +1,5 @@
 ---
-title: "Statistical learning: ...... "
-author: "Luisa M. Mimmi"
+title: "Exploratory analysis of Water prices"
 output:
   html_document:
     toc: true
@@ -63,3 +62,7 @@ kable(t,
 ![Water & WasteWater bills /m3 over time](images/02_BoxplotTime.png)
 </div>
 
+
+3. Interestingly NON-Capital  areas have much higher prices on avg 
+<div style="width:800px; height:8600px">
+![Water & WasteWater bills /m3 in Capital or Non-Capital cities](images/05_PriceCapOrNot.png)

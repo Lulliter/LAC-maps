@@ -3,6 +3,9 @@ cd ~/GoogleDrive/*_LAC/LAC-maps
 ls
 git remote show origin 
 
+# check status
+git status
+
 # Add ALL changes to git Index.
 git add -A
 
