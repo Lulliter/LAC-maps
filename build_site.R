@@ -1,9 +1,9 @@
 # ======= https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html
 
-# ======= Set our working directory. 
-#This helps avoid confusion if our working directory is 
-#not our site but the .Rproject. 
-setwd("~/GoogleDrive/03_g_LAC/LAC-maps")
+#==================================================================================================#
+# ======= Set our working directory in case our working directory is not our site but the .Rproject. 
+# =======   {REDUNDANT: I am setting it in the .sh file}. 
+# setwd("~/GoogleDrive/03_g_LAC/LAC-maps")
 
 
 # ======= list which files will be removed
