@@ -5,15 +5,7 @@
 # Session Data files
 .RData
 
-# Example code in package build process
-*-Ex.R
-
-# Output files from R CMD build
-/*.tar.gz
-
-# Output files from R CMD check
-/*.Rcheck/
-
+ 
 # RStudio files
 .Rproj.user/
 
@@ -36,8 +28,11 @@ vignettes/*.pdf
 *.knit.md
 .Rproj.user
 
+
 # _site
 _site
+# Generated Files: The site_libs/ folder contains libraries and dependencies (such as jQuery, Bootstrap, or other JavaScript and CSS files) that are automatically generated when you render your RMarkdown site. These files do not need to be tracked in version control since they can be re-generated each time the site is rendered.
+site_libs/*
 
 # Excel temporary
 ~$*.xls*
@@ -46,9 +41,9 @@ _site
 .DS_Store
 
 # README.html
-README.html
-LICENSE.html
+ 
 
+99999_Extra/* 
 # Jupyter notebooks
 .ipynb_checkpoints/
 

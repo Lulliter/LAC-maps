@@ -1,7 +1,15 @@
-# Go To (git) ./ folder
-cd ~/GoogleDrive/*_LAC/LAC-maps
+#=========================================== (start) ================================================#
+#================================== Invoke copy_folders.R  & build_site.R FROM SHELL ================================#
+cd ~/GoogleDrive/*_LAC/LAC-maps # Go To (git) folder (otherwise thinks it is in ./)
+pwd
 ls
 git remote show origin 
+
+
+# Rscript copy_folders.R  # not here 
+Rscript build_site.R  # render the site again 
+#=========================================== (end) ================================================#
+
 
 # check status
 git status

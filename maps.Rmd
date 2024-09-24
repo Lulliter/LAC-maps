@@ -34,7 +34,7 @@ knitr::opts_chunk$set(cache = TRUE, # To enable caching for an entire document
 
 
 
-# NEXT  {.toc-ignore}
+## NEXT  {.toc-ignore}
 .... what if I put data in data and reconstruct things here ? 
 
 
