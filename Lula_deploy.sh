@@ -25,7 +25,7 @@ fi
 
 git commit -m "$msg"
 
-
+git commit -m "rebuilding site foor JQUERY"
 # Push source and build repos.
 git push origin master
 
